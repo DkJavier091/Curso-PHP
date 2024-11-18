@@ -28,7 +28,7 @@ $global_prices_galletas = calculate_prices($us_price_galletas, $rates);
 <html>
 <head>
     <title>Prices in Different Currencies</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../Recursos%20A3/css/styles.css">
 </head>
 <body>
 <h1>The Candy Store</h1>

@@ -16,7 +16,7 @@ function calculate_running_total($price, $quantity){
 <html>
 <head>
     <title>Global and Static Variables</title>
-    <link rel="stylesheet" href="../../Recursos%20A3/css/styles.css">
+    <link rel="stylesheet" href="../Recursos%20A3/css/styles.css">
 </head>
 <body>
     <h1>The Candy Store</h1>

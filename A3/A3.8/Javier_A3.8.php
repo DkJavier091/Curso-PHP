@@ -11,7 +11,7 @@
 <html>
 <head>
     <title>Return Type Declarations</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../Recursos%20A3/css/styles.css">
 </head>
 <body>
     <h1>The Candy Store</h1>
