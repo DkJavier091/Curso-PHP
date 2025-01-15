@@ -1,0 +1,16 @@
+Validación de Datos:
+Se utilizan funciones de validación personalizadas para el nombre, correo electrónico, teléfono y tipo de evento mediante filter_input_array 
+y FILTER_VALIDATE_* para asegurar que los datos cumplen con los formatos requeridos.
+La casilla de términos y condiciones se valida utilizando FILTER_VALIDATE_BOOLEAN.
+
+Saneamiento de Datos:
+Se usa filter_var con FILTER_SANITIZE_FULL_SPECIAL_CHARS para sanear el nombre y el mensaje, 
+eliminando cualquier carácter especial que pudiera ser peligroso.
+Se usa filter_var con FILTER_SANITIZE_EMAIL para sanear el correo electrónico.
+Se usa filter_var con FILTER_SANITIZE_NUMBER_INT para sanear el teléfono.
+
+Mostrar Errores:
+Los mensajes de error específicos se muestran en caso de que los datos no sean válidos, permitiendo al usuario corregir los errores.
+
+Mensajes de Éxito:
+Si todos los datos son válidos, se muestra un mensaje de registro exitoso con los datos ingresados.

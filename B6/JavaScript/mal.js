@@ -1,0 +1,1 @@
+alert("Ha sido atacado por un XSS");

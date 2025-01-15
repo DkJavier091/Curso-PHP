@@ -1,0 +1,21 @@
+¿Qué tipo de problemas podría originar un ataque XSS para los usuarios? 
+
+Robo de Información Personal:
+Los atacantes pueden robar información sensible, como nombres de usuario, contraseñas, 
+direcciones de correo electrónico e información de tarjetas de crédito.
+
+Pueden capturar cookies de sesión, permitiéndoles acceder a cuentas sin autenticación.
+
+Secuestro de Sesión:
+Los atacantes pueden secuestrar la sesión del usuario, logrando acceso no autorizado a sus cuentas y datos personales.
+
+
+¿Y para el sitio web?
+
+Compromiso de la Seguridad:
+La presencia de vulnerabilidades XSS puede significar que otras partes del sistema también son vulnerables, 
+exponiendo la totalidad de la infraestructura a ataques.
+
+Pérdida de Confianza de los Usuarios:
+Los usuarios pueden perder la confianza en el sitio web si sus datos personales son comprometidos, 
+afectando la reputación de la empresa o el servicio.

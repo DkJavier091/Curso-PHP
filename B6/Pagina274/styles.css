@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #333333;
+}
+
+p, label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus, select:focus {
+    border-color: #fcb69f;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #fcb69f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff867c;
+}
+
+input[type="submit"]:active {
+    background-color: #ff6f61;
+}
+
+.errores {
+    margin-top: 20px;
+    color: #ff6f61;
+}
+
+.errores ul {
+    list-style-type: none;
+    padding: 0;
+}
